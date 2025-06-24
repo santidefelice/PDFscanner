@@ -25,6 +25,16 @@ let uploadedFiles = [];
             uploadArea.classList.remove('dragover');
             handleFiles(e.dataTransfer.files);
         });
+
+
+
+        function removeFile (){
+            uploadedFiles = [];
+            document.querySelector('.upload-text').textContent = 'No files selected';
+            document.getElementById('fileInput').value = '';
+            document.getElementById('results').style.display = 'none';
+            document.getElementById('resultsList').innerHTML = '';
+        }
         
         function handleFiles(files) {
             uploadedFiles = Array.from(files).filter(file => file.type === 'application/pdf');
