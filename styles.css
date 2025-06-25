@@ -6,7 +6,7 @@
         
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #076585 0%, #fff 100%);
             min-height: 100vh;
             padding: 20px;
         }
@@ -39,7 +39,7 @@
         }
         
         .upload-area {
-            border: 3px dashed #3498db;
+            border: 3px dashed #076585;
             border-radius: 15px;
             padding: 40px;
             text-align: center;
@@ -158,7 +158,7 @@
         }
         
         .add-keyword button {
-            background: #27ae60;
+            background: #076585;
             color: white;
             border: none;
             padding: 10px 20px;
