@@ -28,7 +28,7 @@ let uploadedFiles = [];
 
 
 
-        function removeFile (){
+        function removeFile(){
             uploadedFiles = [];
             document.querySelector('.upload-text').textContent = 'No files selected';
             document.getElementById('fileInput').value = '';
